@@ -31,7 +31,7 @@ defeatSound.src = "./sounds/defeat1.mp3";
 /** 이미지 객체 생성 및 설정 */
 // (1) 배경
 const bgImage = new Image();
-bgImage.src = "./images/background2.jpg";
+bgImage.src = "./images/background.png";
 // (2) 게임 시작
 const startImage = new Image();
 startImage.src = "./images/gamestart.png";
@@ -52,7 +52,7 @@ const rtanCrashImage = new Image();
 rtanCrashImage.src = "./images/rtan_crash.png";
 // (8) 장애물
 const obstacleImage = new Image();
-obstacleImage.src = "./images/sunjae.png";
+obstacleImage.src = "./images/obstacle1.png";
 
 /** 1-1 르탄이 그리기 */
 const RTAN_WIDTH = 100; // 르탄이 가로 너비
